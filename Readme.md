@@ -15,10 +15,6 @@ Making an SEO tool that performs:
 
 Uses MCP thinking and browser tools for automation. Follows MCP process for tab focus, script execution, audits, and reporting. Documents process, challenges, solutions, implementation steps, guidelines, and hours utilized.
 
-**Duration (Hours):** 4  
-**White Paper Link:** (Add link)  
-**Remarks:** (Add remarks)
-
 ---
 
 ### Process
