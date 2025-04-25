@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# SEO Audit Report Generation Rule
+
+To generate an SEO audit report in the format of [seo_audit_product_development.md](mdc:seo_audit_product_development.md), follow these steps:
+
+-ALways use MCP thinking,
+-use MCP list_tabs to focus on mentioned tab or if no tab ID is mentioned to you then by default tell user to open new tab and navigate to goal url.
+-use MCP execute_script, load_url, query_dom_elements, click_element when needed. For query_dom_elements, click_element use it properly and smart as you don't know what element is present.
+-use MCP runAccessibilityAudit, runPerformanceAudit, runSEOAudit, runNextJSAudit ,runAuditMode, runBestPracticesAudit for report. use mcp getConsoleLogs, getConsoleErrors, getNetworkErrors, getNetworkLogs, takeScreenshot, getSelectedElement, wipeLogs,  runDebuggerMode if needed.
+
+
+
+
+

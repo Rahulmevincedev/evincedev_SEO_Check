@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "sequentialthinking": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\dell\\AppData\\Roaming\\npm\\node_modules\\@modelcontextprotocol\\server-sequential-thinking\\dist\\index.js"
+      ]
+    },
+    "browser-tools": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\dell\\AppData\\Roaming\\npm\\node_modules\\@agentdeskai\\browser-tools-mcp\\dist\\mcp-server.js"
+      ],
+      "enabled": true
+    },
+    "chrome-tools": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\dell\\AppData\\Roaming\\npm\\node_modules\\@nicholmikey\\chrome-tools\\dist\\index.js"
+      ],
+      "env": {
+        "CHROME_DEBUG_URL": "http://localhost:9222",
+        "CHROME_CONNECTION_TYPE": "direct",
+        "CHROME_ERROR_HELP": "custom error message"
+      }
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    }
+  }
+}
